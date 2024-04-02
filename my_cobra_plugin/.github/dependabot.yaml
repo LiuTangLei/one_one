@@ -1,0 +1,27 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/my_cobra_plugin"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/my_cobra_plugin/example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/my_cobra_plugin_platform_interface"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/my_cobra_plugin_android"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/my_cobra_plugin_ios"
+    schedule:
+      interval: "daily"

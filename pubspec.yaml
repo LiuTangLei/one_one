@@ -11,11 +11,14 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
+  flutter_dotenv: ^5.1.0
   flutter_localizations:
     sdk: flutter
   intl: ^0.18.1
+  porcupine_flutter: ^3.0.3
+  my_cobra_plugin:
+    path: my_cobra_plugin/my_cobra_plugin
 
-  flutter_gen: any
 dev_dependencies:
   bloc_test: ^9.1.6
   flutter_test:
@@ -26,3 +29,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+  assets:
+    - .env
+    - assets/

@@ -1,0 +1,32 @@
+name: my_cobra_plugin
+description: cobra plugin
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: "^3.3.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: my_cobra_plugin_android
+      ios:
+        default_package: my_cobra_plugin_ios
+
+dependencies:
+  flutter:
+    sdk: flutter
+  my_cobra_plugin_android:
+    path: ../my_cobra_plugin_android
+  my_cobra_plugin_ios:
+    path: ../my_cobra_plugin_ios
+  my_cobra_plugin_platform_interface:
+    path: ../my_cobra_plugin_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  plugin_platform_interface: ^2.1.8
+  very_good_analysis: ^5.1.0
