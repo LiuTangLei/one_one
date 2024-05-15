@@ -14,7 +14,7 @@ dependencies:
   flutter_dotenv: ^5.1.0
   flutter_localizations:
     sdk: flutter
-  intl: ^0.18.1
+  intl: ^0.19.0
   porcupine_flutter: ^3.0.3
   my_cobra_plugin:
     path: my_cobra_plugin/my_cobra_plugin
